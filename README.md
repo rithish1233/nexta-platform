@@ -1,4 +1,4 @@
-# ⚡ NextA v2 — Intelligent Next Best Action Platform
+# ⚡ NextA_VRK v2 — Intelligent Next Best Action Platform
 
 ### Powered by Groq LLMs · AI Agentic Platform
 
@@ -6,7 +6,7 @@
 
 ## 👥 Team
 
-**Team Name:** **NextA**
+**Team Name:** **NextA_VRK**
 
 | Team Member | Roll Number |
 |-------------|-------------|
