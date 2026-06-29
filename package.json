@@ -1,0 +1,13 @@
+{
+  "name": "nexta-platform",
+  "version": "2.0.0",
+  "description": "NextA - Intelligent Next Best Action Platform (Ollama Edition)",
+  "scripts": {
+    "install:all":    "cd backend && npm install && cd ../frontend && npm install",
+    "seed":           "cd backend && npm run seed",
+    "dev:backend":    "cd backend && npm run dev",
+    "dev:frontend":   "cd frontend && npm start",
+    "start:backend":  "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
