@@ -4,6 +4,18 @@
 
 ---
 
+## 👥 Team
+
+**Team Name:** **NextA**
+
+| Team Member | Roll Number |
+|-------------|-------------|
+| **Rithish Reddy** | 23071A05D7 |
+| **Karthikeya Karnati** | 23071A05G6 |
+| **Vamshi Lagishetty** | 23071A05H0 |
+
+---
+
 # 🚀 What This Does
 
 Paste any customer interaction such as meeting notes, emails, or transcripts.
