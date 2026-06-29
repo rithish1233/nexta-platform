@@ -1,0 +1,25 @@
+
+node_modules/
+*/node_modules/
+ 
+# Environment files — NEVER commit (contains API keys)
+.env
+backend/.env
+frontend/.env
+ 
+# Build output
+frontend/build/
+frontend/.cache/
+ 
+# Operating system files
+.DS_Store
+Thumbs.db
+ 
+# Logs
+*.log
+npm-debug.log*
+ 
+# Editor config
+.vscode/
+.idea/
+
