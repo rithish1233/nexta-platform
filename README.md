@@ -4,6 +4,19 @@
 
 ---
 
+## 🔗 GitHub Repository
+
+**Repository:** https://github.com/rithish1233/nexta-platform
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rithish1233/nexta-platform.git
+cd nexta-platform
+```
+
+---
+
 ## 👥 Team
 
 **Team Name:** **NextA_VRK**
@@ -99,12 +112,14 @@ Store it inside your `.env` file.
 
 # ⚙️ Setup Guide
 
-## Step 1 — Extract the Project
+## Step 1 — Clone the Repository
 
 ```bash
-unzip nexta_v2.zip
-cd nexta2
+git clone https://github.com/rithish1233/nexta-platform.git
+cd nexta-platform
 ```
+
+> If you've already downloaded the ZIP, simply extract it and navigate into the project folder.
 
 ---
 
@@ -137,7 +152,6 @@ GROQ_MODEL=llama-3.3-70b-versatile
 ## Step 3 — Install Backend Dependencies
 
 ```bash
-cd backend
 npm install
 ```
 
@@ -175,7 +189,7 @@ Expected output:
 ## Step 6 — Install and Start Frontend
 
 ```bash
-cd frontend
+cd ../frontend
 
 npm install
 
@@ -317,17 +331,17 @@ If you exceed the request limit, wait a few moments before retrying or check you
 
 # 🔌 Socket Events
 
-| Event               | Direction       | Payload                                          |
-| ------------------- | --------------- | ------------------------------------------------ |
-| `join:session`      | Client → Server | `{ sessionId }`                                  |
-| `agent:followup`    | Client → Server | `{ sessionId, userId, agentId, question }`       |
-| `agent:start`       | Server → Client | `{ agent, agentName, icon, color, step, total }` |
-| `agent:stream`      | Server → Client | `{ agent, token, done }`                         |
-| `agent:complete`    | Server → Client | `{ agent, output, step, total }`                 |
-| `agent:error`       | Server → Client | `{ agent, error }`                               |
-| `pipeline:progress` | Server → Client | `{ step, total, percent, message }`              |
-| `pipeline:complete` | Server → Client | `{ sessionId, elapsed, metrics }`                |
-| `pipeline:error`    | Server → Client | `{ sessionId, error }`                           |
+| Event | Direction | Payload |
+|------|-----------|---------|
+| `join:session` | Client → Server | `{ sessionId }` |
+| `agent:followup` | Client → Server | `{ sessionId, userId, agentId, question }` |
+| `agent:start` | Server → Client | `{ agent, agentName, icon, color, step, total }` |
+| `agent:stream` | Server → Client | `{ agent, token, done }` |
+| `agent:complete` | Server → Client | `{ agent, output, step, total }` |
+| `agent:error` | Server → Client | `{ agent, error }` |
+| `pipeline:progress` | Server → Client | `{ step, total, percent, message }` |
+| `pipeline:complete` | Server → Client | `{ sessionId, elapsed, metrics }` |
+| `pipeline:error` | Server → Client | `{ sessionId, error }` |
 
 ---
 
@@ -380,12 +394,12 @@ Password : demo1234
 
 # 🚀 Tech Stack
 
-* **Frontend:** React, Zustand, Axios, Socket.IO Client
-* **Backend:** Node.js, Express.js, Socket.IO
-* **AI:** Groq API (Llama Models)
-* **Database:** MongoDB
-* **Authentication:** JWT
-* **State Management:** Zustand
+- **Frontend:** React, Zustand, Axios, Socket.IO Client
+- **Backend:** Node.js, Express.js, Socket.IO
+- **AI:** Groq API (Llama Models)
+- **Database:** MongoDB
+- **Authentication:** JWT
+- **State Management:** Zustand
 
 ---
 
